@@ -1,0 +1,94 @@
+*{
+	font-family: Arial, 標楷體;
+}
+
+#contain {
+	width: 100%;
+	
+}
+
+header{
+	font-size:40px;
+	text-align:center;
+}
+
+nav{
+	font-size:30px;
+	text-align:center;
+}
+
+body {
+	background-image: url(background.jpg);
+	background-repeat: no-repeat; /* repeat|no-repeat|repeat-x|repeat-y */
+	background-position: center center;
+	color: #800000;
+	background-attachment: fixed;
+	font-size:25px;
+}
+
+figure{
+	width:50%;
+}
+img{
+	width:100%;
+}
+
+dt, footer{
+	text-align: center;
+	font-weight: bold;
+}
+
+dt ul, dt ol, dt il , dt dd{
+	text-align: left;
+	font-weight: normal;
+	
+}
+
+.button_example{
+border:1px solid #CE9A01;-webkit-box-shadow: #FFF563 0px 1px 0px inset;-moz-box-shadow: #FFF563 0px 1px 0px inset; box-shadow: #FFF563 0px 1px 0px inset; -webkit-border-radius: 10px; -moz-border-radius: 10px;border-radius: 10px;font-family:arial, helvetica, sans-serif; padding: 7px 14px 7px 14px; text-decoration:none; display:inline-block;text-shadow: 0px 1px 0 rgba(255,255,255,0.44);font-weight:bold; color: #63460C;
+ background-color: #FFD65E; background-image: -webkit-gradient(linear, left top, left bottom, from(#FFD65E), to(#FEBF04));
+ background-image: -webkit-linear-gradient(top, #FFD65E, #FEBF04);
+ background-image: -moz-linear-gradient(top, #FFD65E, #FEBF04);
+ background-image: -ms-linear-gradient(top, #FFD65E, #FEBF04);
+ background-image: -o-linear-gradient(top, #FFD65E, #FEBF04);
+ background-image: linear-gradient(to bottom, #FFD65E, #FEBF04);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#FFD65E, endColorstr=#FEBF04);
+}
+
+.button_example:hover{
+ border:5px solid #CE9A01;
+ background-color: #FFC92B; background-image: -webkit-gradient(linear, left top, left bottom, from(#FFC92B), to(#CE9A01));
+ background-image: -webkit-linear-gradient(top, #FFC92B, #CE9A01);
+ background-image: -moz-linear-gradient(top, #FFC92B, #CE9A01);
+ background-image: -ms-linear-gradient(top, #FFC92B, #CE9A01);
+ background-image: -o-linear-gradient(top, #FFC92B, #CE9A01);
+ background-image: linear-gradient(to bottom, #FFC92B, #CE9A01);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#FFC92B, endColorstr=#CE9A01);
+}
+
+/*
+Learn:
+1.dt ul, dt ol, dt il 可以連續宣告
+2.
+
+*/
+
+@media screen and (max-width: 920px){
+    #contain {
+		width: 100%;
+	}
+	
+}
+
+@media screen and (max-width: 500px){
+	h1 {
+		font-size: 50px;
+	}
+}
+
+@media screen and (max-width: 480px){
+	nav{
+		width: 250px;
+		text-align:center;
+	}
+
+}
+
